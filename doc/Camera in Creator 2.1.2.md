@@ -1,16 +1,26 @@
-# Camera in Creator 2.1.2
+# Third-person game in Cocos Creator 2.1.2
 
-这篇文章主要介绍如何简单的使用多个摄像机来渲染一个完整3D工程，开发者可以先参考Creator的摄像机说明文档，熟悉Camera的使用方法。
+这篇文章会使用多个摄像机来构建一个简单第三人称游戏，通过实践来熟悉摄像机模块的使用方法，本教程会涉及到下面的几个知识点。
 
-https://docs.cocos.com/creator/2.1/manual/en/render/camera.html
+[摄像机](https://docs.cocos.com/creator/2.1/manual/en/render/camera.html )
+
+[分组管理](https://docs.cocos.com/creator/manual/en/physics/collision/collision-group.html#group-management)
+
+ [组件脚本](https://docs.cocos.com/creator/manual/en/scripting/use-component.html#creating-component-script)
+
+[节点系统事件](https://docs.cocos.com/creator/manual/en/scripting/internal-events.html)
+
+[全局系统事件](https://docs.cocos.com/creator/manual/en/scripting/player-controls.html)
 
 ### 展示效果
 
-教程提供了非常简单的demo，仅仅实现了下面内容。
+简单的第三人称游戏，需要一个聚焦目标，一个围绕目标可以自由旋转的摄像机，还有一些用于交互的UI界面，本教程会实现了下列内容。
 
 1. 3D人物的自由视角控制。
 2. 3D人物在UI中的显示。
 3. UI界面的显示。
+4. 移动控制，使用按键 [A] [W] [S] [D] 进行操作
+5. 镜头旋转，按住鼠标左键并拖动可以进行视角旋转操作
 
 ![image-20190828104819754](./image-20190828104819754.png)
 
@@ -30,7 +40,7 @@ https://docs.cocos.com/creator/2.1/manual/en/render/camera.html
 
 1. 调整Group的值为ui
 2. 调整culling mask，勾选ui，标示该camera只会对ui分组的节点对象产生影响
-3. 调整 clear flag，由于多个camera同时渲染，clear color的操作只能在一个amera上做处理，这样不会导致某个camera渲染不显示。
+3. 调整 clear flag，由于多个camera同时渲染，clear color的操作只能在一个camera上做处理，这样不会导致某个camera渲染不显示。
 
 ![image-20190902144051072](./image-20190902144051072.png)
 
@@ -58,7 +68,7 @@ https://docs.cocos.com/creator/2.1/manual/en/render/camera.html
 
 ![image-20190902145755554](/Users/chenxianyin/Desktop/creator_teach2/image-20190902145755554.png)
 
-下面代码是使用cc.RenderTexture组件，将camera渲染结果保存到纹理，如果期望在编辑器实时预览，可以添加executeInEditMode 标示
+将3D模型渲染到2D界面，我们使用 cc.RenderTexture 组件来实现将camera渲染结果保存到纹理。
 
 ```typescript
 const { ccclass, property, executeInEditMode } = cc._decorator;
@@ -111,7 +121,7 @@ export default class GCCameraRT extends cc.Component {
 
 ### 摄像机在3D场景中的使用
 
-在我们这个教程里面，摄像机扮演的是观察者角色，实现以玩家模型为焦点的，全方位旋转的摄像机模式，玩家可以自由移动，摄像机会实现跟随逻辑。
+在我们这个教程里面，摄像机扮演的是观察者角色，摄像机可以围绕玩家模型全方位旋转，当玩家自由移动时，摄像机会实时跟随。
 
 我们在游戏场景中，以人物模型作为世界的焦点，准备实现一下这个内容。
 
@@ -128,52 +138,50 @@ export default class GCCameraRT extends cc.Component {
 3. 摄像机与人物的位置是实时更新，所以我们将摄像机控制的代码添加到脚本的update函数过程
 
 ```typescript
+update (dt) {
+  if (!CC_EDITOR) {
+    this.onMove();
+  }
 
-    update (dt) {
-        if (!CC_EDITOR) {
-            this.onMove();
-        }
+  // 设置摄像机朝向
+  this.camera.node.eulerAngles = new cc.Vec3(this.degreeX, this.degreeY, 0);
 
-        // 设置摄像机朝向
-        this.camera.node.eulerAngles = new cc.Vec3(this.degreeX, this.degreeY, 0);
+  // 节点位置作为原点
+  var local = new cc.Vec3(0, 0, 100);
+  var newLocal = new cc.Vec3(0, 0, 0);  
 
-        // 节点位置作为原点
-        var local = new cc.Vec3(0, 0, 100);
-        var newLocal = new cc.Vec3(0, 0, 0);  
+  // 镜头远近，这里以倍数做简单计算
+  local.mul(1, newLocal)
+  local = newLocal.clone();
 
-        // 镜头远近，这里以倍数做简单计算
-        local.mul(1, newLocal)
-        local = newLocal.clone();
+  var outMat = new cc.Mat4(
+    1, 0, 0 ,0,
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    0, 0, 0, 1
+  );
 
-        var outMat = new cc.Mat4(
-            1, 0, 0 ,0,
-            0, 1, 0, 0,
-            0, 0, 1, 0,
-            0, 0, 0, 1
-        );
+  var mat1 = new cc.Mat4(
+    1, 0, 0 ,0,
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    0, 0, 0, 1
+  );
+  var quaOut =  new cc.Quat;
+  quaOut.fromEuler(new cc.Vec3(this.degreeX, this.degreeY, 0))
+  mat1.fromQuat(quaOut);
 
-        var mat1 = new cc.Mat4(
-            1, 0, 0 ,0,
-            0, 1, 0, 0,
-            0, 0, 1, 0,
-            0, 0, 0, 1
-        );
-        var quaOut =  new cc.Quat;
-        quaOut.fromEuler(new cc.Vec3(this.degreeX, this.degreeY, 0))
-        mat1.fromQuat(quaOut);
+  // 对方向做旋转变化
+  local.transformMat4(mat1, newLocal);
+  local = newLocal.clone();
 
-        // 对方向做旋转变化
-        local.transformMat4(mat1, newLocal);
-        local = newLocal.clone();
+  // 加上节点位置 (这里10假设是模型的高度值)
+  var nodeLocal = new cc.Vec3(this.node.x, this.node.y + 10, this.node.z);
+  local.add(nodeLocal, newLocal)
+  local = newLocal.clone();
 
-        // 加上节点位置 (这里10假设是模型的高度值)
-        var nodeLocal = new cc.Vec3(this.node.x, this.node.y + 10, this.node.z);
-        local.add(nodeLocal, newLocal)
-        local = newLocal.clone();
-
-        this.camera.node.setPosition(local);
-    }
-
+  this.camera.node.setPosition(local);
+}
 ```
 
 #### 人物模型的移动控制
@@ -229,4 +237,4 @@ onMove () {
 
 ### 最后
 
-本教程主要是讲解如何在 CocosCreator 中使用camera去做一些简单的运用，本教程代码的可以点击这里[下载](https://github.com/xianyinchen/creator_teach)，资源来至网络，请勿用于商业目的。
+本教程主要是讲解如何在 CocosCreator 中使用Camera去做一些简单的运用，帮助开发者更快的找到游戏开发思路，更快的投入到游戏内容的开发上，本教程代码的可以点击这里[下载](https://github.com/xianyinchen/creator_teach2)，资源来至网络，请勿用于商业目的。

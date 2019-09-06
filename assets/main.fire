@@ -26,7 +26,7 @@
         "__id__": 15
       },
       {
-        "__id__": 245
+        "__id__": 265
       }
     ],
     "_active": false,
@@ -287,17 +287,17 @@
         "__id__": 12
       },
       {
-        "__id__": 252
+        "__id__": 272
       }
     ],
     "_active": true,
     "_level": 1,
     "_components": [
       {
-        "__id__": 254
+        "__id__": 274
       },
       {
-        "__id__": 255
+        "__id__": 275
       }
     ],
     "_prefab": null,
@@ -531,7 +531,7 @@
   {
     "__type__": "cc.Node",
     "_name": "ViewRect",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 7
     },
@@ -544,7 +544,7 @@
     "_level": 2,
     "_components": [
       {
-        "__id__": 251
+        "__id__": 271
       }
     ],
     "_prefab": null,
@@ -605,7 +605,7 @@
         "__id__": 14
       },
       {
-        "__id__": 250
+        "__id__": 270
       }
     ],
     "_prefab": null,
@@ -668,7 +668,7 @@
       "__id__": 15
     },
     "view3D": {
-      "__id__": 250
+      "__id__": 270
     },
     "_id": "deTSG5qH9GerLMzo0UOPL+"
   },
@@ -892,7 +892,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "show",
+    "_name": "girl_on_ui",
     "_objFlags": 512,
     "_parent": {
       "__id__": 15
@@ -5148,8 +5148,8 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "knight",
-    "_objFlags": 0,
+    "_name": "girl_3d",
+    "_objFlags": 512,
     "_parent": {
       "__id__": 15
     },
@@ -5158,36 +5158,24 @@
         "__id__": 144
       },
       {
-        "__id__": 224
+        "__id__": 147
       },
       {
-        "__id__": 227
-      },
-      {
-        "__id__": 230
-      },
-      {
-        "__id__": 233
-      },
-      {
-        "__id__": 236
-      },
-      {
-        "__id__": 239
+        "__id__": 259
       }
     ],
     "_active": true,
     "_level": 2,
     "_components": [
       {
-        "__id__": 242
+        "__id__": 262
       },
       {
-        "__id__": 243
+        "__id__": 263
       }
     ],
     "_prefab": {
-      "__id__": 249
+      "__id__": 269
     },
     "_opacity": 255,
     "_color": {
@@ -5215,96 +5203,37 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 500,
-      "y": 500,
-      "z": 500
+      "x": 20,
+      "y": 20,
+      "z": 20
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 180,
+      "y": 0,
       "z": 0
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "38G9fcfipAOZVIBdKUAtEa"
+    "_id": "dbR4TPrQFMOpSjQVjLjOa/"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001",
+    "_name": "CAT_N182_A0",
     "_objFlags": 0,
     "_parent": {
       "__id__": 143
     },
-    "_children": [
-      {
-        "__id__": 145
-      },
-      {
-        "__id__": 147
-      }
-    ],
-    "_active": true,
-    "_level": 1,
-    "_components": [],
-    "_prefab": {
-      "__id__": 223
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00139771937392652,
-      "y": 0.0215635038912296,
-      "z": 0.000873517943546176
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -92.76310006680791,
-      "y": -121.73388929585198,
-      "z": -4.847122756261842
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "85TLruIzpFDITZa+6aEJu7"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 Footsteps",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 144
-    },
     "_children": [],
     "_active": true,
-    "_level": 2,
-    "_components": [],
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 145
+      }
+    ],
     "_prefab": {
       "__id__": 146
     },
@@ -5328,27 +5257,54 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00181983166839927,
-      "y": 0.00103451893664896,
-      "z": -0.0214351657778025
+      "x": 0,
+      "y": 0,
+      "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.99999988079071,
-      "y": 0.999999940395355,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 174.7414655270424,
-      "y": 179.62916584577607,
-      "z": 58.39200599097964
+      "x": 0.00000250447806548769,
+      "y": -0.000010017912261950723,
+      "z": -9.044294855096962e-23
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "3fVH7jWBRIP44sl69VIByf"
+    "_id": "69sccFRcZCiax59wtGIA8j"
+  },
+  {
+    "__type__": "cc.SkinnedMeshRenderer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 144
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "80c110a2-f2c1-46f8-b6f6-d6c9a23bd25f"
+      }
+    ],
+    "_mesh": {
+      "__uuid__": "23190b11-5703-4de3-bdd3-89a64229800c"
+    },
+    "_receiveShadows": false,
+    "_shadowCastingMode": 0,
+    "textures": [],
+    "_skeleton": {
+      "__uuid__": "91504822-5f6a-45a7-8024-119e78ad529c"
+    },
+    "_rootBone": {
+      "__id__": 143
+    },
+    "_id": "55widOGU9PlZu65oo+oqxW"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -5356,17 +5312,17 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "Bip001/Bip001 Footsteps",
+    "fileId": "CAT_N182_A0",
     "sync": false
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001 Pelvis",
+    "_name": "Bip001",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 144
+      "__id__": 143
     },
     "_children": [
       {
@@ -5374,10 +5330,70 @@
       }
     ],
     "_active": true,
+    "_level": 1,
+    "_components": [],
+    "_prefab": {
+      "__id__": 258
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -0.00130758283194155,
+      "y": 0.289839893579483,
+      "z": -0.0112947225570679
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -90.00000155464164,
+      "y": 75.54398268992422,
+      "z": 0.000001908818466855751
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "2cpz7gnJRPRbYXS+trvqJT"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 Pelvis",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 147
+    },
+    "_children": [
+      {
+        "__id__": 149
+      }
+    ],
+    "_active": true,
     "_level": 2,
     "_components": [],
     "_prefab": {
-      "__id__": 222
+      "__id__": 257
     },
     "_opacity": 255,
     "_color": {
@@ -5405,91 +5421,25 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
+      "x": 1,
       "y": 1,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -102.4931196687211,
-      "y": -91.11113142257551,
-      "z": -5.021861360005149
+      "x": -89.9999180377592,
+      "y": -90.00000000002933,
+      "z": 0
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "d8JDT8DSJLoJhG+DQeQ44k"
+    "_id": "12jMseuElJeYsLoDOxUPTG"
   },
   {
     "__type__": "cc.Node",
     "_name": "Bip001 Spine",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 147
-    },
-    "_children": [
-      {
-        "__id__": 149
-      },
-      {
-        "__id__": 159
-      },
-      {
-        "__id__": 169
-      }
-    ],
-    "_active": true,
-    "_level": 3,
-    "_components": [],
-    "_prefab": {
-      "__id__": 221
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00266166450455785,
-      "y": -0.00000382840607926482,
-      "z": 0.000239832254010253
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -3.606248391701754,
-      "y": -7.724159231077884,
-      "z": 8.368385327100905
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "d2uSJLhotKp5eX4jURI9os"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Thigh",
     "_objFlags": 0,
     "_parent": {
       "__id__": 148
@@ -5497,13 +5447,31 @@
     "_children": [
       {
         "__id__": 150
+      },
+      {
+        "__id__": 216
+      },
+      {
+        "__id__": 224
+      },
+      {
+        "__id__": 232
+      },
+      {
+        "__id__": 238
+      },
+      {
+        "__id__": 244
+      },
+      {
+        "__id__": 250
       }
     ],
     "_active": true,
-    "_level": 4,
+    "_level": 3,
     "_components": [],
     "_prefab": {
-      "__id__": 158
+      "__id__": 256
     },
     "_opacity": 255,
     "_color": {
@@ -5525,31 +5493,31 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -0.00225915433838964,
-      "y": 0.000149108163896017,
-      "z": 0.00297921057790518
+      "x": 0.0606139749288559,
+      "y": 0.0062934122979641,
+      "z": 0.00000813901442597853
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
-      "y": 1,
-      "z": 1.00000011920929
+      "x": 1,
+      "y": 0.999999940395355,
+      "z": 0.99999988079071
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -58.245921653708834,
-      "y": -133.00968387485543,
-      "z": 25.432647495301858
+      "x": -5.498814442938715,
+      "y": 0.004293522357846489,
+      "z": -2.522888515906982
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "0bSw1HgHpICI+kKgvkzY86"
+    "_id": "bfFXYXi2xCcq96p+Jdds5f"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001 L Calf",
+    "_name": "Bip001 Spine1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 149
@@ -5557,1877 +5525,13 @@
     "_children": [
       {
         "__id__": 151
-      }
-    ],
-    "_active": true,
-    "_level": 5,
-    "_components": [],
-    "_prefab": {
-      "__id__": 157
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.0121894748881459,
-      "y": 0,
-      "z": 5.9604643443123e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 2.8773429816796614e-15,
-      "y": 4.125051994551642e-15,
-      "z": -51.43125879632383
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "71qqrG+M9C2IcdKfNo/h9J"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Foot",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 150
-    },
-    "_children": [
+      },
       {
-        "__id__": 152
-      }
-    ],
-    "_active": true,
-    "_level": 6,
-    "_components": [],
-    "_prefab": {
-      "__id__": 156
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00910765305161476,
-      "y": 5.9604643443123e-10,
-      "z": 5.9604643443123e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -1.736739778590419,
-      "y": -12.720908527760233,
-      "z": 13.008633746174757
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "1bg1+KoHJCBJEuJfTKjpPW"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Toe0",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 151
-    },
-    "_children": [
-      {
-        "__id__": 153
-      }
-    ],
-    "_active": true,
-    "_level": 7,
-    "_components": [],
-    "_prefab": {
-      "__id__": 155
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00360922561958432,
-      "y": 0.00591070530936122,
-      "z": -5.9604643443123e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90.00017453426051,
-      "y": -90.00016668195737,
-      "z": 86.30388923720928
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "49DCOKpn1EDpdhdyFcg7Ou"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Toe0Nub",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 152
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 8,
-    "_components": [],
-    "_prefab": {
-      "__id__": 154
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00449918955564499,
-      "y": 2.27373670361034e-15,
-      "z": -5.9604643443123e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": -0.999999940395355,
-      "y": -1,
-      "z": -0.999999940395355
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 180,
-      "y": -179.9999998932789,
-      "z": -3.63238844544872e-13
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "8clf6FTJVNbrbAwedkk4Be"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Thigh",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 148
-    },
-    "_children": [
-      {
-        "__id__": 160
+        "__id__": 209
       }
     ],
     "_active": true,
     "_level": 4,
-    "_components": [],
-    "_prefab": {
-      "__id__": 168
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": -0.00302237970754504,
-      "y": 0.000618904246948659,
-      "z": -0.00269016437232494
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
-      "y": 1,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 5.742088177656689,
-      "y": 157.92217273956885,
-      "z": 16.414829574755668
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "a1l6Qo33FDt51nu+9fp/Y5"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Calf",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 159
-    },
-    "_children": [
-      {
-        "__id__": 161
-      }
-    ],
-    "_active": true,
-    "_level": 5,
-    "_components": [],
-    "_prefab": {
-      "__id__": 167
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.0121894758194685,
-      "y": 7.45058015283462e-10,
-      "z": -1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -8.357031717208055e-15,
-      "y": -3.754948394994403e-15,
-      "z": -32.10989048267657
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "08t4f037BGuIkmXEHMP0Il"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Foot",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 160
-    },
-    "_children": [
-      {
-        "__id__": 162
-      }
-    ],
-    "_active": true,
-    "_level": 6,
-    "_components": [],
-    "_prefab": {
-      "__id__": 166
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00910765212029219,
-      "y": -5.9604643443123e-10,
-      "z": 1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
-      "y": 0.999999821186066,
-      "z": 0.999999940395355
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 12.477620957131013,
-      "y": 30.875445927190693,
-      "z": 23.007601989818333
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "32+Y0G1KxIIo8PiozC3t75"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Toe0",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 161
-    },
-    "_children": [
-      {
-        "__id__": 163
-      }
-    ],
-    "_active": true,
-    "_level": 7,
-    "_components": [],
-    "_prefab": {
-      "__id__": 165
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00360922538675368,
-      "y": 0.00591070530936122,
-      "z": -1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 0.999999940395355,
-      "z": 0.999999940395355
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90.00017349699353,
-      "y": -90.00021177887315,
-      "z": 76.94398968814568
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "dchPQES05KO6kUBjIFWl/A"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Toe0Nub",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 162
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 8,
-    "_components": [],
-    "_prefab": {
-      "__id__": 164
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00449918955564499,
-      "y": -2.1175823208041e-24,
-      "z": 0
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 0.999999940395355,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 7.583021075525409e-22,
-      "y": -2.134430680629928e-7,
-      "z": 2.0355549961366502e-13
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "98HUWeNb1BsrTVrKPS3xdx"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 Spine1",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 148
-    },
-    "_children": [
-      {
-        "__id__": 170
-      }
-    ],
-    "_active": true,
-    "_level": 4,
-    "_components": [],
-    "_prefab": {
-      "__id__": 220
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00487256050109863,
-      "y": -0.00000536799416295253,
-      "z": -7.42375846130017e-7
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 0.999999940395355,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 9.493469482577058,
-      "y": -6.096909358955565,
-      "z": 20.122133971941736
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "34B05xTspGxrkMzXRGxOL/"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 Neck",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 169
-    },
-    "_children": [
-      {
-        "__id__": 171
-      },
-      {
-        "__id__": 175
-      },
-      {
-        "__id__": 197
-      }
-    ],
-    "_active": true,
-    "_level": 5,
-    "_components": [],
-    "_prefab": {
-      "__id__": 219
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00761485565453768,
-      "y": -0.000271759025054052,
-      "z": -4.47034825823422e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 0.999999940395355
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -0.0000021804020747976806,
-      "y": -0.000010678967028114831,
-      "z": 2.0441749048113325
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "dcWSoHM6tD4LHN1jrQY8s+"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 Head",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 170
-    },
-    "_children": [
-      {
-        "__id__": 172
-      }
-    ],
-    "_active": true,
-    "_level": 6,
-    "_components": [],
-    "_prefab": {
-      "__id__": 174
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00367632857523859,
-      "y": -1.19209286886246e-9,
-      "z": 2.98023217215615e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 47.86880302539996,
-      "y": 17.03585930197749,
-      "z": -36.91696377450807
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "0f9PDtyyhK46jM4GhYtUjn"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 HeadNub",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 171
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 7,
-    "_components": [],
-    "_prefab": {
-      "__id__": 173
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.0190183520317078,
-      "y": 0,
-      "z": 6.24500424468281e-19
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -1.242404172446681e-17,
-      "y": 1.9878466759147014e-16,
-      "z": -7.951386703658794e-16
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "83tN/+mj1CWJa7F54tefYe"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Clavicle",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 170
-    },
-    "_children": [
-      {
-        "__id__": 176
-      }
-    ],
-    "_active": true,
-    "_level": 6,
-    "_components": [],
-    "_prefab": {
-      "__id__": 196
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": -0.00073536392301321,
-      "y": -0.000802878115791827,
-      "z": 0.00246793450787663
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
-      "y": 1,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 178.01701595411555,
-      "y": -108.39878775127319,
-      "z": 0.659714460861479
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "b3uR6sputDsIcLuGpP0ecP"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L UpperArm",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 175
-    },
-    "_children": [
-      {
-        "__id__": 177
-      }
-    ],
-    "_active": true,
-    "_level": 7,
-    "_components": [],
-    "_prefab": {
-      "__id__": 195
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00292360712774098,
-      "y": -4.44089199923895e-18,
-      "z": -2.38418573772492e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 0.99999988079071,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -54.2208172347033,
-      "y": 15.330371133881638,
-      "z": -23.530464181571496
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "95/lI0tztEHYzK6gtOkXjk"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Forearm",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 176
-    },
-    "_children": [
-      {
-        "__id__": 178
-      }
-    ],
-    "_active": true,
-    "_level": 8,
-    "_components": [],
-    "_prefab": {
-      "__id__": 194
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00755165424197912,
-      "y": 2.22044599961948e-18,
-      "z": 0
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -1.1516848655635267e-15,
-      "y": -1.4823763456470672e-15,
-      "z": -57.56146192875238
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "7bArsIEGdIPLLA5XroeRRy"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Hand",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 177
-    },
-    "_children": [
-      {
-        "__id__": 179
-      },
-      {
-        "__id__": 185
-      },
-      {
-        "__id__": 191
-      }
-    ],
-    "_active": true,
-    "_level": 9,
-    "_components": [],
-    "_prefab": {
-      "__id__": 193
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00474307406693697,
-      "y": -1.19209286886246e-9,
-      "z": 0
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1.00000011920929,
-      "z": 1.00000023841858
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -81.93498730074644,
-      "y": 0.18585787629537714,
-      "z": 9.93359201175816
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "982NZojbtOobuzPiVPUv36"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger0",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 178
-    },
-    "_children": [
-      {
-        "__id__": 180
-      }
-    ],
-    "_active": true,
-    "_level": 10,
-    "_components": [],
-    "_prefab": {
-      "__id__": 184
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00279615167528391,
-      "y": 0.000197470188140869,
-      "z": -0.0029200385324657
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 78.28997279367964,
-      "y": 2.9475110482623443,
-      "z": 40.74570031739608
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "b1B3QcUTdGrKElNgI/ix9V"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger01",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 179
-    },
-    "_children": [
-      {
-        "__id__": 181
-      }
-    ],
-    "_active": true,
-    "_level": 11,
-    "_components": [],
-    "_prefab": {
-      "__id__": 183
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00208712695166469,
-      "y": -2.38418573772492e-9,
-      "z": 2.38418573772492e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -4.622976911671603e-7,
-      "y": 0.000001568748896018794,
-      "z": 57.027354174207034
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "636OyspOlJ7buap/jSN6Xp"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger0Nub",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 180
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 12,
-    "_components": [],
-    "_prefab": {
-      "__id__": 182
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00219656457193196,
-      "y": 2.38418573772492e-9,
-      "z": -2.38418573772492e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.999999940395355,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -0.000002561320938754785,
-      "y": -1.5166066049705084e-21,
-      "z": 8.537736462515944e-7
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "49LopbT3RNe5aZIsbDsh0H"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger1",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 178
-    },
-    "_children": [
-      {
-        "__id__": 186
-      }
-    ],
-    "_active": true,
-    "_level": 10,
-    "_components": [],
-    "_prefab": {
-      "__id__": 190
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00465252762660384,
-      "y": 0,
-      "z": -1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1.00000011920929,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -179.47913476449847,
-      "y": 179.48113606423075,
-      "z": 84.97469602096545
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "09vKV7JNFDvqNOovpb6wEn"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger11",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 185
-    },
-    "_children": [
-      {
-        "__id__": 187
-      }
-    ],
-    "_active": true,
-    "_level": 11,
-    "_components": [],
-    "_prefab": {
-      "__id__": 189
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00199468131177127,
-      "y": -2.22044599961948e-18,
-      "z": -1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1.00000011920929,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 179.99999395158127,
-      "y": -179.99999205829187,
-      "z": 77.58387648423809
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "c7z/AD1sBF4osNrlX6e/Ff"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 L Finger1Nub",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 186
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 12,
-    "_components": [],
-    "_prefab": {
-      "__id__": 188
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00234896526671946,
-      "y": 4.76837147544984e-9,
-      "z": -1.19209286886246e-9
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.99999988079071,
-      "y": 0.99999988079071,
-      "z": 0.99999988079071
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -7.951387461962129e-15,
-      "y": 0.0000034150949921173778,
-      "z": 1.6949397616760876e-29
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "51woUgCdhDd5OiG4bbtS3g"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bone002",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 178
-    },
-    "_children": [],
-    "_active": true,
-    "_level": 10,
-    "_components": [],
-    "_prefab": {
-      "__id__": 192
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00430995831266046,
-      "y": 0.000824930670205504,
-      "z": 0.000794754014350474
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.999999821186066,
-      "y": 0.999999523162842,
-      "z": 0.99999988079071
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 21.259001693702047,
-      "y": 112.82431570168886,
-      "z": -7.6732967993811165
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "4ekZn0rcJIX5tLhwV6OvW1"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bone002",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Clavicle",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 170
-    },
-    "_children": [
-      {
-        "__id__": 198
-      }
-    ],
-    "_active": true,
-    "_level": 6,
-    "_components": [],
-    "_prefab": {
-      "__id__": 218
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": -0.000735366309527308,
-      "y": -0.000802863796707243,
-      "z": -0.00246793893165886
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 0.99999988079071
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": -178.01712453728547,
-      "y": 108.39879404460166,
-      "z": 0.6600144304969093
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "4bB9rOrYNK2Z/WGQ40FiNl"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R UpperArm",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 197
-    },
-    "_children": [
-      {
-        "__id__": 199
-      }
-    ],
-    "_active": true,
-    "_level": 7,
-    "_components": [],
-    "_prefab": {
-      "__id__": 217
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00292360782623291,
-      "y": 1.19209286886246e-9,
-      "z": 4.44089199923895e-18
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000023841858,
-      "y": 1.00000011920929,
-      "z": 1.00000011920929
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 32.99533015105888,
-      "y": -32.73390321686627,
-      "z": -11.655413567795641
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "5byqf432JMJaIA9GD4RFEt"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Forearm",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 198
-    },
-    "_children": [
-      {
-        "__id__": 200
-      }
-    ],
-    "_active": true,
-    "_level": 8,
-    "_components": [],
-    "_prefab": {
-      "__id__": 216
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00755165331065655,
-      "y": 8.94069651646845e-10,
-      "z": -4.44089199923895e-18
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.99999988079071,
-      "y": 1,
-      "z": 1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 6.137047695784316e-15,
-      "y": -7.21492431681718e-15,
-      "z": -28.15674313561752
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "ebE72WGwZJZYxDScYvBcE1"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Hand",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 199
-    },
-    "_children": [
-      {
-        "__id__": 201
-      },
-      {
-        "__id__": 207
-      },
-      {
-        "__id__": 213
-      }
-    ],
-    "_active": true,
-    "_level": 9,
     "_components": [],
     "_prefab": {
       "__id__": 215
@@ -7452,9 +5556,195 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00474307546392083,
-      "y": 1.19209286886246e-9,
-      "z": 0
+      "x": 0.105768427252769,
+      "y": -0.000100221630418673,
+      "z": -1.37090676588514e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -0.1905106389251627,
+      "y": -1.3355712139012925,
+      "z": -8.493453976193544
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "f3lW1qupZEDLviYKzg3jB8"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 Neck",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 150
+    },
+    "_children": [
+      {
+        "__id__": 152
+      },
+      {
+        "__id__": 168
+      },
+      {
+        "__id__": 186
+      }
+    ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 208
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.153262287378311,
+      "y": -0.0205316636711359,
+      "z": -0.00000456452380603878
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 9.759109432845817,
+      "y": -0.008341998177141773,
+      "z": 21.016433228101672
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "42Sz5yiQBKZqx1VYXXeJc+"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Clavicle",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 151
+    },
+    "_children": [
+      {
+        "__id__": 153
+      }
+    ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 167
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -0.0255823507905006,
+      "y": -0.00431827548891306,
+      "z": 0.0407850630581379
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1.00000011920929,
+      "z": 0.99999988079071
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 161.99395403649237,
+      "y": -103.22247632456435,
+      "z": 15.568405279698398
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "35lAvWM0lAiKcSajbg8FlU"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L UpperArm",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 152
+    },
+    "_children": [
+      {
+        "__id__": 154
+      }
+    ],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 166
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0535137355327606,
+      "y": 4.76837147544984e-9,
+      "z": -7.10542719878232e-17
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -7464,30 +5754,1589 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 70.78648384770483,
-      "y": 1.7011785431385027,
-      "z": 14.171324269327208
+      "x": 13.619494248537903,
+      "y": 45.688903373494355,
+      "z": -23.7251432666
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "1bMvZl+FZPHrFcp/OQPac4"
+    "_id": "87MnHn7eJEY7qpbIAebY0v"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Forearm",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 153
+    },
+    "_children": [
+      {
+        "__id__": 155
+      }
+    ],
+    "_active": true,
+    "_level": 8,
+    "_components": [],
+    "_prefab": {
+      "__id__": 165
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.135511323809624,
+      "y": 0,
+      "z": -7.10542719878232e-17
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.99999988079071,
+      "y": 0.99999988079071,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 8.840157781267059e-15,
+      "y": 1.0904582256525244e-14,
+      "z": -73.04195280946918
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "36nFkh59ZAdKuWtFB2OUhM"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Hand",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 154
+    },
+    "_children": [
+      {
+        "__id__": 156
+      },
+      {
+        "__id__": 160
+      }
+    ],
+    "_active": true,
+    "_level": 9,
+    "_components": [],
+    "_prefab": {
+      "__id__": 164
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.145173788070679,
+      "y": -3.81469718035987e-8,
+      "z": -7.10542719878232e-17
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -121.46647335494175,
+      "y": 11.997402341647323,
+      "z": -4.709110964664475
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "042Cdij+BIObQrCPVzTEWi"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Finger0",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 155
+    },
+    "_children": [
+      {
+        "__id__": 157
+      }
+    ],
+    "_active": true,
+    "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 159
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.034715011715889,
+      "y": 0.0233939364552498,
+      "z": -0.0438551716506481
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 1.00000011920929
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 65.0793625109673,
+      "y": 28.55142144906715,
+      "z": 33.41412849460467
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "3dyRWUlFBGEapdykF84jHi"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Finger01",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 156
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 11,
+    "_components": [],
+    "_prefab": {
+      "__id__": 158
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0235911551862955,
+      "y": 0,
+      "z": -1.90734859017994e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 0.999999940395355,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 1.1911806781890157e-7,
+      "y": -1.6056181341317191e-7,
+      "z": 4.427994228828623
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "0aCdm3DRtDFpq1WfPdSs3w"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Finger1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 155
+    },
+    "_children": [
+      {
+        "__id__": 161
+      }
+    ],
+    "_active": true,
+    "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 163
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0660473927855492,
+      "y": 0.000637817371170968,
+      "z": -0.00234451284632087
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 14.167942730818122,
+      "y": -2.3368259241825515,
+      "z": 25.244114561070145
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "db+22zfpxMSIXgAgyNFIgm"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Finger11",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 160
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 11,
+    "_components": [],
+    "_prefab": {
+      "__id__": 162
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0323105677962303,
+      "y": 7.62939436071974e-8,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
+      "z": 1.00000011920929
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 6.22990726943356,
+      "y": 1.7027563452762344,
+      "z": 28.45962645160221
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "dckN4hNOFJgJqJFOqYifAJ"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Clavicle",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 151
+    },
+    "_children": [
+      {
+        "__id__": 169
+      }
+    ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 185
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -0.0255929939448833,
+      "y": -0.0176899246871471,
+      "z": -0.0369848497211933
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -165.34991960116034,
+      "y": 113.04982284011399,
+      "z": 16.69395108937189
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "67Kj6FCNtOmJfTD0M+7v49"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R UpperArm",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 168
+    },
+    "_children": [
+      {
+        "__id__": 170
+      }
+    ],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 184
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0535137169063091,
+      "y": -4.76837147544984e-9,
+      "z": -3.81469718035987e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1.00000011920929,
+      "z": 0.99999988079071
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -9.469770466763954,
+      "y": -32.58081405371441,
+      "z": -23.27395335042943
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "0cSaH3rs1LT7OsBOLQtpwZ"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Forearm",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 169
+    },
+    "_children": [
+      {
+        "__id__": 171
+      }
+    ],
+    "_active": true,
+    "_level": 8,
+    "_components": [],
+    "_prefab": {
+      "__id__": 183
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.13551127910614,
+      "y": -2.8610228852699e-8,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -4.4018965161536616e-15,
+      "y": 2.374757638549753e-15,
+      "z": -41.11719185089526
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "7c+ebwiqBNCrxQAj8DDUp8"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Hand",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 170
+    },
+    "_children": [
+      {
+        "__id__": 172
+      },
+      {
+        "__id__": 176
+      },
+      {
+        "__id__": 180
+      }
+    ],
+    "_active": true,
+    "_level": 9,
+    "_components": [],
+    "_prefab": {
+      "__id__": 182
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.145173817873001,
+      "y": 1.90734859017994e-8,
+      "z": 3.81469718035987e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1.00000011920929,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 153.17980448092237,
+      "y": -21.426121007797438,
+      "z": -33.8053965690459
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "89ocvhugNFnbL9avQnjyyK"
   },
   {
     "__type__": "cc.Node",
     "_name": "Bip001 R Finger0",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 200
+      "__id__": 171
     },
     "_children": [
       {
-        "__id__": 202
+        "__id__": 173
       }
     ],
     "_active": true,
     "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 175
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0347150042653084,
+      "y": 0.0233939550817013,
+      "z": 0.0438551716506481
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -85.98078870456301,
+      "y": -22.078461380422844,
+      "z": 33.96329180315901
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "93yVbewpJAKJee+NPewEqx"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Finger01",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 172
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 11,
+    "_components": [],
+    "_prefab": {
+      "__id__": 174
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0235911179333925,
+      "y": 3.81469718035987e-8,
+      "z": 1.90734859017994e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -4.5582559780398535e-7,
+      "y": 0.0000026015649762636583,
+      "z": 10.090998939782915
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "98jpQO5aJAob4cOkRvtx7c"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Finger1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 171
+    },
+    "_children": [
+      {
+        "__id__": 177
+      }
+    ],
+    "_active": true,
+    "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 179
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0660473704338074,
+      "y": 0.000637798279058188,
+      "z": 0.00234447466209531
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -5.667504573548805,
+      "y": 0.5974512535203675,
+      "z": 18.319307939095427
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "54TbYA6mtHEaPTju+VuODS"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Finger11",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 176
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 11,
+    "_components": [],
+    "_prefab": {
+      "__id__": 178
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0323105603456497,
+      "y": 1.90734859017994e-8,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0.0000027608007883604466,
+      "y": 0.0000018286110616921737,
+      "z": 20.96571096090644
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "91wCnTt1lMGJ9JATQZuy/v"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone099",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 171
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 181
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0390770062804222,
+      "y": 0.103350602090359,
+      "z": -0.0310931392014027
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.99999988079071,
+      "y": 1,
+      "z": 0.999999701976776
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 147.65791800550076,
+      "y": -128.54715104675915,
+      "z": -45.62430926882112
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "1al3iSzS9J4KF6FTvL+srk"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bone099",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 Head",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 151
+    },
+    "_children": [
+      {
+        "__id__": 187
+      },
+      {
+        "__id__": 189
+      },
+      {
+        "__id__": 191
+      },
+      {
+        "__id__": 199
+      }
+    ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 207
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0339678190648556,
+      "y": 1.77635679969558e-17,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999821186066,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 10.981537873959443,
+      "y": -1.500567597759662,
+      "z": 10.50534931794557
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "b9YYvw0HhPoLH3DLcGkH3S"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone020",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 186
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 188
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.181015655398369,
+      "y": 0.133634865283966,
+      "z": -0.0856761187314987
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.99999988079071,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -120.98148378284745,
+      "y": 112.65610797931937,
+      "z": 66.80963257528492
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "aas/1cjf1LBpJox2PQGOlh"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone020",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone019",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 186
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 190
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.178502529859543,
+      "y": 0.131801664829254,
+      "z": 0.087441012263298
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.99999988079071,
+      "y": 0.99999988079071,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 111.39360696167475,
+      "y": -106.14350547217092,
+      "z": 67.56554750796951
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "475pG6nrtIvJAe9tEydGa7"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone019",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone022",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 186
+    },
+    "_children": [
+      {
+        "__id__": 192
+      }
+    ],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 198
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.13754703104496,
+      "y": -0.141569212079048,
+      "z": 0.166861116886139
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999821186066,
+      "y": 0.99999988079071,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -156.8950043988233,
+      "y": -157.28182250120696,
+      "z": -11.794941853609739
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "41UJtNLwJICa9ng/LbJ2zl"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone023",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 191
+    },
+    "_children": [
+      {
+        "__id__": 193
+      }
+    ],
+    "_active": true,
+    "_level": 8,
+    "_components": [],
+    "_prefab": {
+      "__id__": 197
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.154346913099289,
+      "y": -7.62939436071974e-8,
+      "z": -3.55271359939116e-17
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 4.149225719279292,
+      "y": 12.732475748361084,
+      "z": -18.044394219912064
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "28TOKTZ8xAJppr2fTqOC3D"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone024",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 192
+    },
+    "_children": [
+      {
+        "__id__": 194
+      }
+    ],
+    "_active": true,
+    "_level": 9,
+    "_components": [],
+    "_prefab": {
+      "__id__": 196
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.159413188695908,
+      "y": -0.00000164031973781675,
+      "z": -9.53674295089968e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000023841858,
+      "y": 1.00000023841858,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0.3922183341339011,
+      "y": 13.920225498658793,
+      "z": 0.629848134957246
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "86NHLFx1RDSptU3OlHOZi0"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone025",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 193
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 10,
+    "_components": [],
+    "_prefab": {
+      "__id__": 195
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.15503665804863,
+      "y": -3.0517577442879e-7,
+      "z": 9.53674295089968e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999761581421,
+      "y": 0.999999761581421,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -2.271565286871201,
+      "y": 10.680661835176506,
+      "z": 3.895471964177881
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "18kL2kbJRBZYMSxgBd0yik"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone022/Bone023/Bone024/Bone025",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone022/Bone023/Bone024",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone022/Bone023",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone022",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone027",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 186
+    },
+    "_children": [
+      {
+        "__id__": 200
+      }
+    ],
+    "_active": true,
+    "_level": 7,
     "_components": [],
     "_prefab": {
       "__id__": 206
@@ -7512,42 +7361,42 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00279615097679198,
-      "y": 0.000197470188140869,
-      "z": 0.00292003899812698
+      "x": 0.136351197957993,
+      "y": -0.145786508917809,
+      "z": -0.160204008221626
     },
     "_scale": {
       "__type__": "cc.Vec3",
       "x": 1,
       "y": 0.999999940395355,
-      "z": 1.00000011920929
+      "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -22.978368232812773,
-      "y": -91.00470173449432,
-      "z": 72.98439076377616
+      "x": 169.85575688865916,
+      "y": 151.97910277670368,
+      "z": -22.016080850773797
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "3dzxrSvfBGR4oeUBNN8oY3"
+    "_id": "ac1Sc0nLFM679I6keam8IR"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001 R Finger01",
+    "_name": "Bone028",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 201
+      "__id__": 199
     },
     "_children": [
       {
-        "__id__": 203
+        "__id__": 201
       }
     ],
     "_active": true,
-    "_level": 11,
+    "_level": 8,
     "_components": [],
     "_prefab": {
       "__id__": 205
@@ -7572,38 +7421,42 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00208712578751147,
-      "y": -2.22044599961948e-18,
-      "z": -2.38418573772492e-9
+      "x": 0.154346942901611,
+      "y": -7.62939436071974e-8,
+      "z": 7.10542719878232e-17
     },
     "_scale": {
       "__type__": "cc.Vec3",
       "x": 0.999999940395355,
-      "y": 1,
+      "y": 0.999999940395355,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -0.000004888706605536789,
-      "y": 0.000004132746913094651,
-      "z": 34.27441613180638
+      "x": -3.575167801542028,
+      "y": -10.622179132159104,
+      "z": -20.001340678845555
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "63UXj+tG1Hwqj4xp3F8KpJ"
+    "_id": "a7cRaF4GtG6pASBLCkP6jN"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001 R Finger0Nub",
+    "_name": "Bone029",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 202
+      "__id__": 200
     },
-    "_children": [],
+    "_children": [
+      {
+        "__id__": 202
+      }
+    ],
     "_active": true,
-    "_level": 12,
+    "_level": 9,
     "_components": [],
     "_prefab": {
       "__id__": 204
@@ -7628,194 +7481,41 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00219656224362552,
-      "y": 0,
-      "z": 1.52655665058778e-18
+      "x": 0.159413263201714,
+      "y": -0.00000160217280154029,
+      "z": 1.90734859017994e-8
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": -1,
-      "y": -1,
-      "z": -1
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 179.99999957311323,
-      "y": 179.99999829245272,
-      "z": 8.537736526127031e-7
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "68s9y6a4ZAVIqyh3CPAaSx"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Finger1",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 200
-    },
-    "_children": [
-      {
-        "__id__": 208
-      }
-    ],
-    "_active": true,
-    "_level": 10,
-    "_components": [],
-    "_prefab": {
-      "__id__": 212
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.0046525290235877,
-      "y": 0,
-      "z": 1.11022299980974e-18
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 1.00000011920929,
-      "y": 1.00000011920929,
-      "z": 0.999999940395355
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0.060625236088026765,
-      "y": -0.03991988630279621,
-      "z": 41.18447470508941
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "groupIndex": 0,
-    "_id": "bfFl5XXVxMeKZ+a3ht0bG+"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Bip001 R Finger11",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 207
-    },
-    "_children": [
-      {
-        "__id__": 209
-      }
-    ],
-    "_active": true,
-    "_level": 11,
-    "_components": [],
-    "_prefab": {
-      "__id__": 211
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_position": {
-      "__type__": "cc.Vec3",
-      "x": 0.00199468131177127,
-      "y": 1.19209286886246e-9,
-      "z": 8.94069651646845e-10
-    },
-    "_scale": {
-      "__type__": "cc.Vec3",
-      "x": 0.99999988079071,
-      "y": 1,
+      "x": 1.00000023841858,
+      "y": 1.00000023841858,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -0.000017557104885313642,
-      "y": 0.00001524283086958073,
-      "z": 72.89879630121966
+      "x": -0.03416729217100727,
+      "y": -11.098672688953668,
+      "z": 4.073002907724302
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "81uJjvRTJFabnmgkYlcTbY"
+    "_id": "95djvPLzJBiJJPtpJdjRtT"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bip001 R Finger1Nub",
+    "_name": "Bone030",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 208
+      "__id__": 201
     },
     "_children": [],
     "_active": true,
-    "_level": 12,
+    "_level": 10,
     "_components": [],
     "_prefab": {
-      "__id__": 210
+      "__id__": 203
     },
     "_opacity": 255,
     "_color": {
@@ -7837,27 +7537,27 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00234896643087268,
-      "y": 0,
-      "z": -2.98023217215615e-10
+      "x": 0.155036732554436,
+      "y": -3.0517577442879e-7,
+      "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": -1,
-      "y": -1,
-      "z": -1
+      "x": 0.999999761581421,
+      "y": 0.999999761581421,
+      "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -179.99999871933952,
-      "y": -179.99999893278294,
-      "z": -0.0000017075472805761128
+      "x": 0.9549844539395405,
+      "y": -11.253968222789846,
+      "z": 7.2535643548177005
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "35/nkgAeZPIoBOTX4YBgFs"
+    "_id": "149fJ/JHVK7JLdpwEsLVpN"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -7865,9 +7565,9 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone027/Bone028/Bone029/Bone030",
     "sync": false
   },
   {
@@ -7876,9 +7576,9 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone027/Bone028/Bone029",
     "sync": false
   },
   {
@@ -7887,21 +7587,58 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone027/Bone028",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bone027",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck",
     "sync": false
   },
   {
     "__type__": "cc.Node",
-    "_name": "Bone001",
+    "_name": "Bone016",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 200
+      "__id__": 150
     },
-    "_children": [],
+    "_children": [
+      {
+        "__id__": 210
+      }
+    ],
     "_active": true,
-    "_level": 10,
+    "_level": 5,
     "_components": [],
     "_prefab": {
       "__id__": 214
@@ -7926,155 +7663,45 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.00322146830148995,
-      "y": 0.00175577402114868,
-      "z": 0.000565377762541175
+      "x": 0.100141257047653,
+      "y": 0.0460692122578621,
+      "z": -0.00130744988564402
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1.00000035762787,
-      "y": 1.00000107288361,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 90.83081273610235,
-      "y": -83.36979871708307,
-      "z": -2.5911716237259266
+      "x": 176.07714142194396,
+      "y": 177.12385602234133,
+      "z": 22.062656934087766
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "2dXMbpkuxLi6U2tTb+fAK/"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bone001",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001/Bip001 Pelvis",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "Bip001",
-    "sync": false
+    "_id": "357HFUUHBBEafwBZHlnpua"
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_wuqi01",
+    "_name": "Bone017",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 209
     },
-    "_children": [],
-    "_active": true,
-    "_level": 1,
-    "_components": [
+    "_children": [
       {
-        "__id__": 225
+        "__id__": 211
       }
     ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
     "_prefab": {
-      "__id__": 226
+      "__id__": 213
     },
     "_opacity": 255,
     "_color": {
@@ -8096,9 +7723,9 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -0.0358098708093166,
-      "y": 0.0332844741642475,
-      "z": 0
+      "x": 0.0817532315850258,
+      "y": 3.81469718035987e-8,
+      "z": 1.90734859017994e-8
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -8108,42 +7735,71 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000009334667642611461,
-      "y": 0,
-      "z": 0
+      "x": 0.0068704834885802936,
+      "y": -0.03485664922256732,
+      "z": 8.12258275747389
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "10w4W7+/xP1ZpoeQkHb1Bk"
+    "_id": "87OCRV1UxJLbaqc2GA4GjU"
   },
   {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
+    "__type__": "cc.Node",
+    "_name": "Bone018",
     "_objFlags": 0,
-    "node": {
-      "__id__": 224
+    "_parent": {
+      "__id__": 210
     },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "12968a5a-1e40-4736-be94-01842c364b06"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "e74482d4-bfb8-448f-b9c8-6a7d15ae289c"
+    "_children": [],
+    "_active": true,
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 212
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "6f224715-14d6-4bfb-963e-61d21e5e4ed9"
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
     },
-    "_rootBone": {
-      "__id__": 143
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
     },
-    "_id": "392ScgUg1NsrpmcQRItElk"
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0777456238865852,
+      "y": 0,
+      "z": 9.53674295089968e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.99999988079071,
+      "y": 0.99999988079071,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0.39091169613820814,
+      "y": -2.0973673810130475,
+      "z": 11.52411183344227
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "a6oHq6sFJF85mufd5w6WMA"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -8151,26 +7807,459 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "zhanshi_wuqi01",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bone016/Bone017/Bone018",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bone016/Bone017",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bone016",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1",
     "sync": false
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_shenti01",
+    "_name": "Bip001 L Thigh",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 149
+    },
+    "_children": [
+      {
+        "__id__": 217
+      }
+    ],
+    "_active": true,
+    "_level": 4,
+    "_components": [],
+    "_prefab": {
+      "__id__": 223
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -0.0602831244468689,
+      "y": -0.0151140484958887,
+      "z": 0.0635418519377708
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1.00000011920929,
+      "z": 1.00000011920929
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 6.68054630297671,
+      "y": 173.05361561645773,
+      "z": -1.6844516225942576
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "fcsmKwl5JFtqzV7TZGpwaN"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Calf",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 216
+    },
+    "_children": [
+      {
+        "__id__": 218
+      }
+    ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 222
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.148905411362648,
+      "y": 0,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 0.99999988079071
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 6.58508803059986e-15,
+      "y": 8.260823939256903e-16,
+      "z": -15.731759127456629
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "44Bz2Y+XJFR7R+I3r988ze"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Foot",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 217
+    },
+    "_children": [
+      {
+        "__id__": 219
+      }
+    ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 221
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.117303349077702,
+      "y": -4.44089199923895e-18,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 0.99999988079071
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -14.699267222980772,
+      "y": 6.751866239217117,
+      "z": 14.017882919201059
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "b98RQP4tdGvosfCghFUN3k"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 L Toe0",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 218
     },
     "_children": [],
     "_active": true,
-    "_level": 1,
-    "_components": [
+    "_level": 7,
+    "_components": [],
+    "_prefab": {
+      "__id__": 220
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0246202945709229,
+      "y": 0.0401430204510689,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 1,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -0.00003163179583625201,
+      "z": 90
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "43uh1N/q9KILhDKRZHagye"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Thigh",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 149
+    },
+    "_children": [
       {
-        "__id__": 228
+        "__id__": 225
       }
     ],
+    "_active": true,
+    "_level": 4,
+    "_components": [],
+    "_prefab": {
+      "__id__": 231
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -0.0602732449769974,
+      "y": -0.00271202088333666,
+      "z": -0.0652834177017212
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -22.274827790798486,
+      "y": -172.4757020575595,
+      "z": 4.315670688035831
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "be3k4MG/hBL7gXYoM8qMkM"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Calf",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 224
+    },
+    "_children": [
+      {
+        "__id__": 226
+      }
+    ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 230
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.148905411362648,
+      "y": -4.76837147544984e-9,
+      "z": 9.53674295089968e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999821186066,
+      "y": 0.999999821186066,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -2.420388754702761e-16,
+      "y": -6.436000436949232e-16,
+      "z": -22.090479911070794
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "2akq2w8CVGOKOp2JnTdCzR"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bip001 R Foot",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 225
+    },
+    "_children": [
+      {
+        "__id__": 227
+      }
+    ],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
     "_prefab": {
       "__id__": 229
     },
@@ -8194,83 +8283,41 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -1.19209286886246e-9,
-      "y": -0.0120308203622699,
-      "z": 0.00229685520753264
+      "x": 0.117303408682346,
+      "y": -3.57627860658738e-9,
+      "z": -7.15255721317476e-9
     },
     "_scale": {
       "__type__": "cc.Vec3",
       "x": 1,
-      "y": 1,
-      "z": 1
+      "y": 0.999999940395355,
+      "z": 0.999999940395355
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000009334667642611461,
-      "y": 0,
-      "z": 0
+      "x": -15.42610166924314,
+      "y": -4.717347761702631,
+      "z": 12.779228329465239
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "70N2KXGr1AQree9dcsZmV/"
-  },
-  {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 227
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "12968a5a-1e40-4736-be94-01842c364b06"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "54f056ea-ad5b-4bf4-bbce-aec178bfa47c"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "b6673ff9-4225-4b00-a67e-1194544713bd"
-    },
-    "_rootBone": {
-      "__id__": 143
-    },
-    "_id": "a8yIPyUYVJLqBKlhriK9jT"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "zhanshi_shenti01",
-    "sync": false
+    "_id": "2bVg5hwe1Bg7EDvmol9BfY"
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_tou01",
+    "_name": "Bip001 R Toe0",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 226
     },
     "_children": [],
     "_active": true,
-    "_level": 1,
-    "_components": [
-      {
-        "__id__": 231
-      }
-    ],
+    "_level": 7,
+    "_components": [],
     "_prefab": {
-      "__id__": 232
+      "__id__": 228
     },
     "_opacity": 255,
     "_color": {
@@ -8292,9 +8339,9 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.000342693907441571,
-      "y": 0.052407443523407,
-      "z": 1.40172007334627e-9
+      "x": 0.0246202945709229,
+      "y": 0.0401430204510689,
+      "z": 2.38418573772492e-9
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -8304,42 +8351,15 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000009334667642611461,
-      "y": 0,
-      "z": 0
+      "x": 0,
+      "y": -0.00006991188905100059,
+      "z": 90
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "2a3yTybP9CgomEawhIMn/C"
-  },
-  {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 230
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "93429a0a-c65a-467a-9206-cd64ad70241c"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "11ba150e-7777-4d21-ba45-e0b5469b1704"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "d2d9a9ee-a262-4191-b29e-3b1b4949622c"
-    },
-    "_rootBone": {
-      "__id__": 143
-    },
-    "_id": "a3pJ4MZLpLiYK+FmvbCOiY"
+    "_id": "ba6FagZY9JhoGuyImM/w+a"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -8347,26 +8367,175 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "zhanshi_tou01",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh",
     "sync": false
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_tou02",
+    "_name": "Bone009",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 149
     },
-    "_children": [],
+    "_children": [
+      {
+        "__id__": 233
+      }
+    ],
     "_active": true,
-    "_level": 1,
-    "_components": [
+    "_level": 4,
+    "_components": [],
+    "_prefab": {
+      "__id__": 237
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0720737427473068,
+      "y": -0.0144295571371913,
+      "z": 0.101793259382248
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 90.08295886639092,
+      "y": -169.76697982553696,
+      "z": -8.219655842345327
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "28sOcnHn9OwIZCbsOrjZDK"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone010",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 232
+    },
+    "_children": [
       {
         "__id__": 234
       }
     ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 236
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0857164189219475,
+      "y": -3.55271359939116e-17,
+      "z": -4.76837147544984e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -2.5435901558188823,
+      "y": -8.589374124151131,
+      "z": -15.39749483452022
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "cdISN+KEZEKJMIJTVkfduz"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone011",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 233
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
     "_prefab": {
       "__id__": 235
     },
@@ -8390,54 +8559,27 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0.000184468619409017,
-      "y": 0.0539178103208542,
-      "z": -0.00132724456489086
+      "x": 0.0772565230727196,
+      "y": 1.90734859017994e-8,
+      "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 1.00000011920929,
+      "y": 1.00000011920929,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000002504478065487671,
-      "y": 0,
-      "z": 0
+      "x": -1.3257405120334294,
+      "y": -1.0942723987465428,
+      "z": -11.44006239092475
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "acKZ+JBaBFH4dW3bB3O3ws"
-  },
-  {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 233
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "44b7f9db-1622-49a0-82af-f6558739acab"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "2599705f-d224-4d1f-a773-1cfd6de0f032"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "ef40b271-9842-4767-9bb7-88867f26f615"
-    },
-    "_rootBone": {
-      "__id__": 143
-    },
-    "_id": "e6xd28FSBNJa6E3OGyfwVh"
+    "_id": "29fEapiqxK8qFauOGj7XtQ"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -8445,28 +8587,50 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "zhanshi_tou02",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone009/Bone010/Bone011",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone009/Bone010",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone009",
     "sync": false
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_shenti02",
+    "_name": "Bone001",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 149
     },
-    "_children": [],
-    "_active": true,
-    "_level": 1,
-    "_components": [
+    "_children": [
       {
-        "__id__": 237
+        "__id__": 239
       }
     ],
+    "_active": true,
+    "_level": 4,
+    "_components": [],
     "_prefab": {
-      "__id__": 238
+      "__id__": 243
     },
     "_opacity": 255,
     "_color": {
@@ -8488,81 +8652,99 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0.0221662130206823,
-      "z": 0.0018526220228523
+      "x": 0.0786257162690163,
+      "y": -0.0833244696259499,
+      "z": -0.00130767759401351
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.99999988079071,
+      "y": 0.999999821186066,
       "z": 1
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000002504478065487671,
-      "y": 0,
-      "z": 0
+      "x": 173.34769626424213,
+      "y": 171.83028727471958,
+      "z": -14.238339025089951
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "ffX4lg4KZKwJMpk1ktCJmg"
-  },
-  {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 236
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "c628ff9e-fdeb-4ece-b7c9-afc7ff056513"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "cf7056ad-2462-4258-9b70-d80af2bcbcd8"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "520b0c75-e8a0-4f3a-b5c5-74f5213bc309"
-    },
-    "_rootBone": {
-      "__id__": 143
-    },
-    "_id": "9diVO9I9JA8akRqZlFbcbp"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 143
-    },
-    "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
-    },
-    "fileId": "zhanshi_shenti02",
-    "sync": false
+    "_id": "6bhBt/JjRHuqkcW7UuX3JB"
   },
   {
     "__type__": "cc.Node",
-    "_name": "zhanshi_wuqi02",
+    "_name": "Bone002",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 143
+      "__id__": 238
     },
-    "_children": [],
-    "_active": true,
-    "_level": 1,
-    "_components": [
+    "_children": [
       {
         "__id__": 240
       }
     ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 242
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.085716187953949,
+      "y": -1.90734859017994e-8,
+      "z": -4.76837147544984e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000023841858,
+      "y": 1.00000023841858,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -1.4476373763776147,
+      "y": 6.286616558059506,
+      "z": 13.11222013954931
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "8evhJh6ZpGTadtw6ruydmd"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone003",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 239
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
     "_prefab": {
       "__id__": 241
     },
@@ -8586,9 +8768,102 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 0.0775794014334679,
       "y": 0,
-      "z": 0
+      "z": 4.76837147544984e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999821186066,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -1.226600376129656,
+      "y": -3.418799348255478,
+      "z": 24.13330106472957
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "d4myGnyVBGm5qYFbX7MYL0"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone001/Bone002/Bone003",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone001/Bone002",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone001",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone013",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 149
+    },
+    "_children": [
+      {
+        "__id__": 245
+      }
+    ],
+    "_active": true,
+    "_level": 4,
+    "_components": [],
+    "_prefab": {
+      "__id__": 249
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0640375912189484,
+      "y": 0.0774347111582756,
+      "z": -0.00130752380937338
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -8598,42 +8873,131 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0.000002504478065487671,
-      "y": 0,
-      "z": 0
+      "x": -179.80226222765083,
+      "y": -178.4534745858334,
+      "z": 14.913699741158668
     },
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": true,
     "groupIndex": 0,
-    "_id": "e0QUa7ywhGVqeYjhZRsTum"
+    "_id": "d57ya1YRxDlq2rH9y3/Xvn"
   },
   {
-    "__type__": "cc.SkinnedMeshRenderer",
-    "_name": "",
+    "__type__": "cc.Node",
+    "_name": "Bone014",
     "_objFlags": 0,
-    "node": {
-      "__id__": 239
+    "_parent": {
+      "__id__": 244
     },
-    "_enabled": true,
-    "_materials": [
+    "_children": [
       {
-        "__uuid__": "c628ff9e-fdeb-4ece-b7c9-afc7ff056513"
+        "__id__": 246
       }
     ],
-    "_mesh": {
-      "__uuid__": "323c8a98-4347-4d19-affd-6b3b368329f2"
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 248
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "textures": [],
-    "_skeleton": {
-      "__uuid__": "6557a547-a071-4058-8145-98d21f6f7751"
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
     },
-    "_rootBone": {
-      "__id__": 143
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
     },
-    "_id": "17F8PBgzBH3q7ZBj8+h8UU"
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0825790986418724,
+      "y": 0,
+      "z": 1.19209286886246e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -0.20240296139657363,
+      "y": -4.169774059635482,
+      "z": 2.7721979948016426
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "f9haRP/FBP3r/yXJv1m69B"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone015",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 245
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 247
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0742435082793236,
+      "y": 3.81469718035987e-8,
+      "z": -1.66893006081636e-8
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -2.435991009342074,
+      "y": -2.7936928650283304,
+      "z": -11.932681368283747
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "45Ld8eAKpDfaf39uxRB4l2"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -8641,9 +9005,371 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "zhanshi_wuqi02",
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone013/Bone014/Bone015",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone013/Bone014",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone013",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone005",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 149
+    },
+    "_children": [
+      {
+        "__id__": 251
+      }
+    ],
+    "_active": true,
+    "_level": 4,
+    "_components": [],
+    "_prefab": {
+      "__id__": 255
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0732550024986267,
+      "y": -0.0143772680312395,
+      "z": -0.0990524664521217
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 0.999999940395355,
+      "z": 0.999999940395355
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 89.50976853179071,
+      "y": 160.60944557269997,
+      "z": 7.119094611427796
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "2aOpQqoKlH97lRK8VoaXiM"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone006",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 250
+    },
+    "_children": [
+      {
+        "__id__": 252
+      }
+    ],
+    "_active": true,
+    "_level": 5,
+    "_components": [],
+    "_prefab": {
+      "__id__": 254
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0841904059052467,
+      "y": 1.90734851912566e-7,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.999999940395355,
+      "y": 0.999999940395355,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -1.964932507103414,
+      "y": 5.5398699942438645,
+      "z": 17.27432028739707
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "07dvPEeb5Ma4L/kLqk9s7Z"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bone007",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 251
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 6,
+    "_components": [],
+    "_prefab": {
+      "__id__": 253
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0779352635145187,
+      "y": 3.81469718035987e-8,
+      "z": 9.53674295089968e-9
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.00000023841858,
+      "y": 1.00000023841858,
+      "z": 1
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -2.301103067470617,
+      "y": -0.7997201675989233,
+      "z": 7.852744603250877
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "84XbIzz9VLo42iI/XZz/a1"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone005/Bone006/Bone007",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone005/Bone006",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine/Bone005",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis/Bip001 Spine",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001/Bip001 Pelvis",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "Bip001",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "CAT_N182_A3",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 143
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 260
+      }
+    ],
+    "_prefab": {
+      "__id__": 261
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0.0424350537359715,
+      "y": 0.461556315422058,
+      "z": -0.138988733291626
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.851679980754852,
+      "y": 0.851679742336273,
+      "z": 0.851679921150208
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": -179.99997995083345,
+      "y": 0.0000025061458397163895,
+      "z": -0.000008395588333323764
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": true,
+    "groupIndex": 0,
+    "_id": "cdILceNA1AEKZtFfhSlTZM"
+  },
+  {
+    "__type__": "cc.SkinnedMeshRenderer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 259
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "0d538b8f-d6a9-488e-9661-bc2da2c8bdc8"
+      }
+    ],
+    "_mesh": {
+      "__uuid__": "d6e736d2-5b72-4857-b092-62cefa39089b"
+    },
+    "_receiveShadows": false,
+    "_shadowCastingMode": 0,
+    "textures": [],
+    "_skeleton": {
+      "__uuid__": "c8f509b6-f5cd-4575-b724-038543dd9422"
+    },
+    "_rootBone": {
+      "__id__": 143
+    },
+    "_id": "b3KiK3t41L16vf2b1a6zre"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
+    },
+    "fileId": "CAT_N182_A3",
     "sync": false
   },
   {
@@ -8655,18 +9381,18 @@
     },
     "_enabled": true,
     "_defaultClip": {
-      "__uuid__": "11a9a4e6-f107-4d79-9fa8-cf1776cc53c8"
+      "__uuid__": "a0a55da4-7ccd-4e54-9a75-9e7cd81f7bb0"
     },
     "_clips": [
       {
-        "__uuid__": "11a9a4e6-f107-4d79-9fa8-cf1776cc53c8"
+        "__uuid__": "a0a55da4-7ccd-4e54-9a75-9e7cd81f7bb0"
       }
     ],
     "playOnLoad": true,
     "_model": {
-      "__uuid__": "f0a6027e-bee8-4c1a-9d04-1231b7db7706"
+      "__uuid__": "a6946afb-7d4f-4847-bb46-a6d0b35a4b25"
     },
-    "_id": "3bye6J7WdPCo/oKuoemaip"
+    "_id": "b1GBDrkvlABpirB81IgzPk"
   },
   {
     "__type__": "67e45dZCvRIYZj1bYNf3WzF",
@@ -8677,19 +9403,19 @@
     },
     "_enabled": true,
     "touch": {
-      "__id__": 244
+      "__id__": 264
     },
     "camera": {
       "__id__": 3
     },
-    "_id": "5fWByRWHZClpAnTImkTRYJ"
+    "_id": "33TVF5L95IrpTqdzsJBfl5"
   },
   {
     "__type__": "cc.Node",
     "_name": "touch",
     "_objFlags": 512,
     "_parent": {
-      "__id__": 245
+      "__id__": 265
     },
     "_children": [],
     "_active": true,
@@ -8747,17 +9473,17 @@
     },
     "_children": [
       {
-        "__id__": 244
+        "__id__": 264
       },
       {
-        "__id__": 246
+        "__id__": 266
       }
     ],
     "_active": true,
     "_level": 1,
     "_components": [
       {
-        "__id__": 248
+        "__id__": 268
       }
     ],
     "_prefab": null,
@@ -8808,14 +9534,14 @@
     "_name": "title",
     "_objFlags": 512,
     "_parent": {
-      "__id__": 245
+      "__id__": 265
     },
     "_children": [],
     "_active": false,
     "_level": 2,
     "_components": [
       {
-        "__id__": 247
+        "__id__": 267
       }
     ],
     "_prefab": null,
@@ -8868,7 +9594,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 246
+      "__id__": 266
     },
     "_enabled": true,
     "_materials": [
@@ -8898,7 +9624,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 245
+      "__id__": 265
     },
     "_enabled": false,
     "_materials": [
@@ -8931,9 +9657,9 @@
       "__id__": 143
     },
     "asset": {
-      "__uuid__": "242c6219-e8a2-4b35-8d75-425145a3452d"
+      "__uuid__": "dd350b05-ba83-4d28-8b52-45e49fc64308"
     },
-    "fileId": "f0a6027e-bee8-4c1a-9d04-1231b7db7706",
+    "fileId": "a6946afb-7d4f-4847-bb46-a6d0b35a4b25",
     "sync": false
   },
   {
@@ -8998,7 +9724,7 @@
     "_level": 2,
     "_components": [
       {
-        "__id__": 253
+        "__id__": 273
       }
     ],
     "_prefab": null,
@@ -9012,7 +9738,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 364.45,
+      "width": 235.66,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -9051,7 +9777,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 252
+      "__id__": 272
     },
     "_enabled": true,
     "_materials": [
@@ -9060,8 +9786,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "让游戏开发更简单 ...",
-    "_N$string": "让游戏开发更简单 ...",
+    "_string": "hello world ...",
+    "_N$string": "hello world ...",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
