@@ -2,25 +2,25 @@
 
 This article will use a number of cameras to build a simple third-person game, familiar with the use of camera modules through practice, this tutorial will cover the following points.
 
-[Camera] (https://docs.cocos.com/creator/2.1/manual/en/render/camera.html )
+[Camera](https://docs.cocos.com/creator/2.1/manual/en/render/camera.html )
 
-[Group Management] (https://docs.cocos.com/creator/manual/en/physics/collision/collision-group.html#group-management)
+[Group Management](https://docs.cocos.com/creator/manual/en/physics/collision/collision-group.html#group-management)
 
-[Component Script] (https://docs.cocos.com/creator/manual/en/scripting/use-component.html#creating-component-script)
+[Script Component](https://docs.cocos.com/creator/manual/en/scripting/use-component.html#creating-component-script)
 
-[Node System Events] (https://docs.cocos.com/creator/manual/en/scripting/internal-events.html)
+[Node System Events](https://docs.cocos.com/creator/manual/en/scripting/internal-events.html)
 
-[Global System Events] (https://docs.cocos.com/creator/manual/en/scripting/player-controls.html)
+[Global System Events](https://docs.cocos.com/creator/manual/en/scripting/player-controls.html)
 
 ### Display of results
 
 A simple third-person game that requires a focus target, a camera that rotates around the target, and some UI interfaces for interaction. This tutorial will implement the following.
 
-1. Free viewing angle control of 3D characters.
-2. The display of 3D characters in the UI.
-3. Display of the UI interface.
-4. Move the control and operate with the buttons [A] [W] [S] [D]
-5. Rotate the lens, hold down the left mouse button and drag to zoom the view
+1. Free viewing of 3D characters.
+2. 3D characters in the UI.
+3. UI interface.
+4. Move the control and operate with the buttons [A] [W] [S] [D].
+5. Rotate the lens, hold down the left mouse button and drag to zoom the view.
 
 ![image-20190828104819754](./image-20190828104819754.png)
 
@@ -28,13 +28,13 @@ A simple third-person game that requires a focus target, a camera that rotates a
 
 Briefly introduce the structure of our node tree:
 
-1. Ceamra3D camera for free rotation around the target (girl_3d)
-2. CameraBody is used to render the 3D target (girl_on_ui) to the 2D interface.
-3. Main Camera Camera for 2D interface rendering
-4. View3D A 2D Sprite for receiving 3D models rendered by CameraBody
-5. girl_3d a 3D character model
-6. girl_on_ui a 3D character model
-7. touch is used to receive mouse events to control the camera's third-person perspective
+1. **Ceamra3D** camera for free rotation around the target (girl_3d).
+2. **CameraBody** is used to render the 3D target (girl_on_ui) to the 2D interface.
+3. **Main Camera** Camera for 2D interface rendering.
+4. **View3D** A 2D Sprite for receiving 3D models rendered by CameraBody.
+5. **girl_3d** a 3D character model.
+6. **girl_on_ui** a 3D character model.
+7. **touch** is used to receive mouse events to control the camera's third-person perspective.
 
 ![image-20190906111906389](./image-20190906111906389.png)
 
@@ -42,43 +42,43 @@ Briefly introduce the structure of our node tree:
 
 Use grouping to mark which camera the scene object should be rendered by.
 
-1. The default group is used for 3D model rendering.
-2. ui grouping is used for interface rendering.
-3. The head group is used to render the 3D model into a 2D sprite.
+1. **default** group is used for 3D model rendering.
+2. **ui** group is used for interface rendering.
+3. **head** group is used to render the 3D model into a 2D sprite.
 
 ![image-20190902142958682](/Users/chenxianyin/Desktop/creator_teach2/image-20190902142958682.png)
 
 ### 2D camera
 
-New scene, there will be a 2D camera by default, using default, remember to manually adjust to ui grouping.
+New scene will auto create a 2D camera by **default**,  remember to manually adjust to **ui** group.
 
-1. Adjust the value of Group to ui
-2. Adjust the culling mask and check ui to indicate that the camera will only affect the node objects of the ui group.
-3. Adjust the clear flag. Since multiple cameras are rendered at the same time, the operation of clear color can only be processed on one camera, which will not cause a certain camera rendering not to be displayed.
+1. Adjust the value of Group to **ui** group.
+2. Adjust the **culling mask** and check ui to indicate that the camera will only affect the node objects of the **ui** group.
+3. Adjust the **clear flag**. Since multiple cameras are rendered at the same time, the operation of clear color can only be processed on one camera, which will not cause a certain camera rendering not to be displayed.
 
 ![image-20190902144051072](./image-20190902144051072.png)
 
 ### 3D camera
 
-The new camera, the default is 2D configuration, we need to select the 3D button to make the camera work in 3D state.
+the default configuration of a new camera is  work in 2D state , we need to select the 3D button to make the camera work in 3D state.
 
-1. Activate the 3D logo
-2. Adjust the value of Group to default.
-3. Adjust the culling mask and check the default to indicate that the camera will only affect the node objects of the default group.
-4. Adjust the clear flag. Since multiple cameras are rendered at the same time, the operation of clear color can only be processed on one amera, which will not cause a certain camera rendering not to be displayed.
-5. By default, use perspective mode
+1. Activate the 3D toggle button.
+2. Adjust the value of Group to **default**.
+3. Adjust the **culling mask** and check the default to indicate that the camera will only affect the node objects of the **default** group.
+4. Adjust the **clear flag**. Since multiple cameras are rendered at the same time, the operation of clear color can only be processed on one amera, which will not cause a certain camera rendering not to be displayed.
+5. use perspective mode, clear **ortho** mask.
 
 ![image-20190902145408986](/Users/chenxianyin/Desktop/creator_teach2/image-20190902145408986.png)
 
 ### 3D model rendering to 2D sprite
 
-The new camera, the default is 2D configuration, we need to select the 3D button to make the camera work in 3D state.
+the default configuration of a new camera is  work in 2D state , we need to select the 3D button to make the camera work in 3D state.
 
-1. Activate the 3D logo
-2. Adjust the value of Group to head
-3. Adjust the culling mask and check the head to indicate that the camera will only affect the node objects of the head group.
-4. Adjust the clear flag and check the clear color flag as we will only display the model rendering results.
-5. By default, use perspective mode
+1. Activate the 3D toggle button.
+2. Adjust the value of Group to **head**.
+3. Adjust the **culling mask** and check the head to indicate that the camera will only affect the node objects of the **head** group.
+4. Adjust the **clear flag** and check the clear color flag as we will only display the model rendering results.
+5. use perspective mode, clear **ortho** mask.
 
 ![image-20190902145755554](/Users/chenxianyin/Desktop/creator_teach2/image-20190902145755554.png)
 
@@ -132,13 +132,13 @@ export default class GCCameraRT extends cc.Component {
 
 ### Use of the camera in 3D scenes
 
-In our tutorial, the camera plays the role of an observer. The camera can rotate around the player model. When the player moves freely, the camera will follow in real time.
+In our tutorial, the camera plays the role of an observer. The camera can rotate around the character model. When the player moves freely, the camera will follow in real time.
 
 In the game scene, we use the character model as the focus of the world, and we are ready to implement this content.
 
-1. Camera and character follow binding
-2. Rotation control of the human lens
-3. Mobile control of the character model
+1. Camera and character follow binding.
+2. Rotation control of the human lens.
+3. Mobile control of the character model.
 
 ![image-20190828110000446](/Users/chenxianyin/Desktop/creator_teach2/image-20190828110000446.png)
 
@@ -246,6 +246,6 @@ onMove () {
 }
 ```
 
-### 最后
+### The End
 
-This tutorial is mainly to explain how to use Camera to do some simple applications in CocosCreator, to help developers find game development ideas faster, and to invest more in game content development. The code of this tutorial can be clicked here [Download] (https://github.com/xianyinchen/creator_teach2), resources come to the network, please do not use for commercial purposes.
+This tutorial is mainly to explain how to use Camera to do simple game in CocosCreator, to help developers find game development ideas faster, and to invest more in game content development. The code of this tutorial can be  [download](https://github.com/xianyinchen/creator_teach2) here, resources come to the network, please do not use for commercial purposes.
